@@ -1,0 +1,425 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Ash's Script", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+}) --main
+
+Tab:AddToggle({
+	Name = "God Mode (Demon Only)",
+	Default = false,
+	Callback = function(Value)
+		local args = {
+    [1] = (Value)
+}
+
+game:GetService("ReplicatedStorage").Remotes.heal_tang123asd:FireServer(unpack(args))
+	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "teleport",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+}) --teleport
+
+Tab:AddButton({
+	Name = "Nomay village",
+	Callback = function()
+      		local teleport_table = {
+    location1 = Vector3.new(3562, 673, -2109), 
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+    end
+end
+
+bypass_teleport(teleport_table.location1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Mugen Train Station",
+	Callback = function()
+      		local teleport_table = {
+    location1 = Vector3.new(784, 497, 900), 
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+    end
+end
+
+bypass_teleport(teleport_table.location1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Wop City",
+	Callback = function()
+      		local teleport_table = {
+    location1 = Vector3.new(-31, 601, -431), 
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+    end
+end
+
+bypass_teleport(teleport_table.location1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Village 2",
+	Callback = function()
+      		local teleport_table = {
+    location1 = Vector3.new(1216, 569, 95), 
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+    end
+end
+
+bypass_teleport(teleport_table.location1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cave 1",
+	Callback = function()
+      		local teleport_table = {
+    location1 = Vector3.new(4253, 674, 581), 
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+    end
+end
+
+bypass_teleport(teleport_table.location1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cave 2",
+	Callback = function()
+      		local teleport_table = {
+    location1 = Vector3.new(1183, 487, -1192), 
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+    end
+end
+
+bypass_teleport(teleport_table.location1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Mist trainer location",
+	Callback = function()
+      		local teleport_table = {
+    location1 = Vector3.new(4325, 673, -569), 
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+    end
+end
+
+bypass_teleport(teleport_table.location1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Akeza Cave",
+	Callback = function()
+      		local teleport_table = {
+    location1 = Vector3.new(1903, 556, -151), 
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+    end
+end
+
+bypass_teleport(teleport_table.location1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Frozen Lake",
+	Callback = function()
+      		local teleport_table = {
+    location1 = Vector3.new(2049, 483, -770), 
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+    end
+end
+
+bypass_teleport(teleport_table.location1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Beast Cave",
+	Callback = function()
+      		local teleport_table = {
+    location1 = Vector3.new(1840, 484, 37), 
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+    end
+end
+
+bypass_teleport(teleport_table.location1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Wop's Training Ground",
+	Callback = function()
+      		local teleport_table = {
+    location1 = Vector3.new(224, 598, 483), 
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+    end
+end
+
+bypass_teleport(teleport_table.location1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Inosuke",
+	Callback = function()
+      		local teleport_table = {
+    location1 = Vector3.new(1645, 300, -322), 
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+    end
+end
+
+bypass_teleport(teleport_table.location1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Rengoku",
+	Callback = function()
+      		local teleport_table = {
+    location1 = Vector3.new(3657, 673, -510), 
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+    end
+end
+
+bypass_teleport(teleport_table.location1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Behind Wop City",
+	Callback = function()
+      		local teleport_table = {
+    location1 = Vector3.new(-1309, 600, -392), 
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+    end
+end
+
+bypass_teleport(teleport_table.location1)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Game Teleport",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+}) --game teleport
+
+Tab:AddButton({
+	Name = "Mugen Train",
+	Callback = function()
+      		game:GetService("TeleportService"):Teleport(11468034852)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Main Menu",
+	Callback = function()
+      		game:GetService("TeleportService"):Teleport(5956785391)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hub",
+	Callback = function()
+      		game:GetService("TeleportService"):Teleport(9321822839)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Ouwigahara Dungeon",
+	Callback = function()
+      		game:GetService("TeleportService"):Teleport(11468075017)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Ouwohana",
+	Callback = function()
+      		game:GetService("TeleportService"):Teleport(11468159863)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Map",
+	Callback = function()
+      		game:GetService("TeleportService"):Teleport(6152116144)
+  	end    
+})
