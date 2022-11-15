@@ -26,6 +26,10 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 }) --teleport
 
+local Section = Tab:AddSection({
+	Name = "Ouwohana"
+})
+
 Tab:AddButton({
 	Name = "Nomay village",
 	Callback = function()
@@ -34,7 +38,7 @@ Tab:AddButton({
 }
 
 local tween_s = game:GetService('TweenService')
-local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+local tweeninfo = TweenInfo.new(5,Enum.EasingStyle.Linear)
 
 local lp = game.Players.LocalPlayer
 
@@ -59,7 +63,7 @@ Tab:AddButton({
 }
 
 local tween_s = game:GetService('TweenService')
-local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+local tweeninfo = TweenInfo.new(5,Enum.EasingStyle.Linear)
 
 local lp = game.Players.LocalPlayer
 
@@ -84,7 +88,7 @@ Tab:AddButton({
 }
 
 local tween_s = game:GetService('TweenService')
-local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+local tweeninfo = TweenInfo.new(5,Enum.EasingStyle.Linear)
 
 local lp = game.Players.LocalPlayer
 
@@ -109,7 +113,7 @@ Tab:AddButton({
 }
 
 local tween_s = game:GetService('TweenService')
-local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+local tweeninfo = TweenInfo.new(5,Enum.EasingStyle.Linear)
 
 local lp = game.Players.LocalPlayer
 
@@ -134,7 +138,7 @@ Tab:AddButton({
 }
 
 local tween_s = game:GetService('TweenService')
-local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+local tweeninfo = TweenInfo.new(5,Enum.EasingStyle.Linear)
 
 local lp = game.Players.LocalPlayer
 
@@ -159,7 +163,7 @@ Tab:AddButton({
 }
 
 local tween_s = game:GetService('TweenService')
-local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+local tweeninfo = TweenInfo.new(5,Enum.EasingStyle.Linear)
 
 local lp = game.Players.LocalPlayer
 
@@ -184,7 +188,7 @@ Tab:AddButton({
 }
 
 local tween_s = game:GetService('TweenService')
-local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+local tweeninfo = TweenInfo.new(5,Enum.EasingStyle.Linear)
 
 local lp = game.Players.LocalPlayer
 
@@ -209,7 +213,7 @@ Tab:AddButton({
 }
 
 local tween_s = game:GetService('TweenService')
-local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+local tweeninfo = TweenInfo.new(5,Enum.EasingStyle.Linear)
 
 local lp = game.Players.LocalPlayer
 
@@ -234,7 +238,7 @@ Tab:AddButton({
 }
 
 local tween_s = game:GetService('TweenService')
-local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+local tweeninfo = TweenInfo.new(5,Enum.EasingStyle.Linear)
 
 local lp = game.Players.LocalPlayer
 
@@ -284,7 +288,7 @@ Tab:AddButton({
 }
 
 local tween_s = game:GetService('TweenService')
-local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+local tweeninfo = TweenInfo.new(5,Enum.EasingStyle.Linear)
 
 local lp = game.Players.LocalPlayer
 
@@ -309,7 +313,7 @@ Tab:AddButton({
 }
 
 local tween_s = game:GetService('TweenService')
-local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+local tweeninfo = TweenInfo.new(5,Enum.EasingStyle.Linear)
 
 local lp = game.Players.LocalPlayer
 
@@ -334,7 +338,7 @@ Tab:AddButton({
 }
 
 local tween_s = game:GetService('TweenService')
-local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+local tweeninfo = TweenInfo.new(5,Enum.EasingStyle.Linear)
 
 local lp = game.Players.LocalPlayer
 
@@ -359,7 +363,7 @@ Tab:AddButton({
 }
 
 local tween_s = game:GetService('TweenService')
-local tweeninfo = TweenInfo.new(2,Enum.EasingStyle.Linear)
+local tweeninfo = TweenInfo.new(5,Enum.EasingStyle.Linear)
 
 local lp = game.Players.LocalPlayer
 
